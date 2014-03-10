@@ -10,6 +10,7 @@ end
 
 function i3ipc.Connection._method:main()
     local main_loop = GLib.MainLoop()
+    self.on_ipc_shutdown:connect(function() main_loop:quit() end)
     main_loop:run()
 end
 
