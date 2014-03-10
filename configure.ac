@@ -10,7 +10,7 @@ AM_INIT_AUTOMAKE([-Wall -Werror foreign -Wno-portability])
 
 AX_PROG_LUA
 
-PKG_CHECK_MODULES([I3IPC], [i3ipc-glib-1.0])
+PKG_CHECK_MODULES([I3IPC], [i3ipc-glib-1.0 >= 0.1])
 
 AC_MSG_CHECKING(for lua-lgi)
 
