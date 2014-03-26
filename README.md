@@ -8,6 +8,8 @@ i3's interprocess communication (or [ipc](http://i3wm.org/docs/ipc.html)) is the
 
 i3ipc-lua is a Lua library for controlling the window manager. This project is intended to be useful for general scripting, and for applications that interact with the window manager like status line generators, notification daemons, and pagers.
 
+If you have an idea for a new script to extend i3wm, post your script to the examples directory or make a [script request](https://github.com/acrisci/i3ipc-lua/issues) on the issue tracker.
+
 ## Documentation
 
 The latest documentation can be found [here](http://dubstepdish.com/i3ipc-glib). i3ipc-lua is a [GObject introspection](https://developer.gnome.org/gobject/stable/) library (kind of like [gtk](https://developer.gnome.org/)).
